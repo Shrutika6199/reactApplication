@@ -6,7 +6,7 @@ var [guser,setgUser]=useState("");
 var [guserDetails,setgUserDetails]=useState({});
 var [warningMessage,setWarningMessage]=useState("");
 var getAllUser=async()=>{
-var response=await fetch(https://api.github.com/users)
+var response=await fetch('https://api.github.com/users');
 var data=await response.json();
 setUsers(data);
 }
