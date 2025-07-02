@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.product-container{
+display:flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap:20px;
+}
+.product-item{
+flex:1 1 30%;
+box-sizing: border-box;
+}
+
+
+
